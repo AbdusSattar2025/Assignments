@@ -1,0 +1,5 @@
+# Part 8: Conclusion
+
+The study revisited Lanthanum Zirconate neural network potentials from data generation through feature selection, consolidating the workflow into a reproducible `SymFSel` package. By combining weighted MAE training, mixed-precision acceleration, and permutation-based descriptor pruning, the AtomicMLP reached $R^2 = 0.801$ on held-out configurations with millielectronvolt-level RMSE. The feature analysis revealed that a reduced subset of 50–70 symmetry functions per species preserves accuracy, clarifying which local environments dominate the potential energy surface. While the additive Behler–Parrinello decomposition limits long-range interactions, the pipeline now surfaces those limitations explicitly and provides hooks for future architecture swaps. Overall, the refreshed experiments demonstrate that careful data weighting and systematic descriptor auditing can rejuvenate legacy RuNNer inputs without collecting new DFT labels, offering a pragmatic path for teams modernizing older potentials.
+
+---

@@ -1,0 +1,28 @@
+{
+    "model_path_relative": "exp_model.pth",
+    "datafile_used": "./data/testing.data",
+    "energy_idx_used": 2,
+    "model_type": "mlp",
+    "n_g": 159,
+    "species_list_ordered": [
+        "La",
+        "O",
+        "Zr"
+    ],
+    "s2i_map_used": {
+        "La": 0,
+        "O": 1,
+        "Zr": 2
+    },
+    "hidden_units": 256,
+    "depth": 2,
+    "learning_rate": 0.0003,
+    "epochs_trained": 300,
+    "batch_size": 1024,
+    "validation_ratio": 0.1,
+    "seed_used": 42,
+    "amp_used": true,
+    "weighting_used": true,
+    "energy_mean": -0.2627771228363014,
+    "energy_std": 0.007847551175566174
+}
