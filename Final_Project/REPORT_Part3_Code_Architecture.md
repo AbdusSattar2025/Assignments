@@ -6,7 +6,7 @@ The project codebase resides inside the `SymFSel` directory and follows a modula
 
 **Figure 1.** High-level module interaction diagram (conceptual).  
 `config.py` → provides global settings used by `train.py` and `features.py`.  
-`models.py` → defines neural network architectures consumed by `train.py` and indirectly by `features.py`.  
+`models.py` → defines neural network models for training and feature analysis.  
 `utils.py` → supplies common routines (data loading, weighting, plotting) reused across scripts.  
 `train.py` → orchestrates dataset preparation, model training, loss logging, checkpointing, and scatter plot generation.  
 `features.py` → loads the trained checkpoint and performs feature importance evaluation.

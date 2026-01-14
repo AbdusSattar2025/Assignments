@@ -82,4 +82,3 @@ $$
 The angle $\\theta_{ijk}$ describes the geometric arrangement of the triplet, while $\\zeta$ and $\\lambda$ control the angular resolution. These functions distinguish between linear, bent, and tetrahedral coordination geometries essential for describing chemical bonding.
 
 The complete descriptor vector $\\mathbf{G}^i$ concatenates multiple radial and angular functions with varying parameters, creating a high-dimensional but comprehensive representation of the local atomic environment. For this project, 159 such functions describe each atom's surroundings.
-

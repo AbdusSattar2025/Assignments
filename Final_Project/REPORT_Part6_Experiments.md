@@ -97,4 +97,4 @@ A closer inspection of the validation set reveals two regimes:
 
 Despite the moderate $R^2$ ceiling, Figures 7–9 demonstrate that predictive variance shrinks once ~60 descriptors per species are retained, so the remaining error is dominated by intrinsic noise (DFT forces are not included) rather than model capacity. Future experiments (Part 7) will build on these insights to address remaining gaps.
 
----
+
